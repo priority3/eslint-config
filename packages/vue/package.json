@@ -1,0 +1,24 @@
+{
+  "name": "@pity/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "author": "priority",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@pity/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}

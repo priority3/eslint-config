@@ -1,0 +1,31 @@
+{
+  "name": "@pity/eslint-config-monorepo",
+  "version": "0.0.0",
+  "description": "eslint config ",
+  "main": "index.js",
+  "packageManager": "pnpm@7.3.0",
+  "scripts": {
+    "lint": "eslint .",
+    "prepare": "pnpm -r run stub",
+    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priority3/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "priority (https://github.com/priority3)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priority3/eslint-config/issues"
+  },
+  "homepage": "https://github.com/priority3/eslint-config#readme",
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "eslint": "^8.20.0",
+    "typescript": "^4.7.4",
+    "@pity/eslint-config":"workspace:*"
+  }
+}

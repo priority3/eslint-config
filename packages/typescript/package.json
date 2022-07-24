@@ -1,0 +1,35 @@
+{
+  "name": "@pity/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priority3/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "typescript"
+  ],
+  "author": "priority (https://github.com/priority3)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/priority3/eslint-config/issues"
+  },
+  "homepage": "https://github.com/priority3/eslint-config#readme",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@pity/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
