@@ -282,6 +282,7 @@ module.exports = {
     'require-await': 'off',
     'no-return-assign': 'off',
     'operator-linebreak': ['error', 'before'],
+    'newline-before-return': 'error',
 
     // unicorns
     // Pass error message when throwing errors
@@ -333,5 +334,6 @@ module.exports = {
     // 'pity/if-newline': 'error',
     // 'pity/import-dedupe': 'error',
     // 'pity/prefer-inline-type-import': 'error',
+
   },
 }
