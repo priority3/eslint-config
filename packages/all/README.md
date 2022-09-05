@@ -18,9 +18,9 @@ pnpm add @pity/eslint-config -D
 
 ### Config .eslintrc
 
-```js
+```json
 {
-  "extands":"@pity"
+  "extends": "@pity"
 }
 ```
 > You don't need .eslintignore normally as it has been provided by the preset.

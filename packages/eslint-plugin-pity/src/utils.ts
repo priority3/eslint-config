@@ -1,8 +1,7 @@
 import { ESLintUtils } from '@typescript-eslint/utils'
 
 export const createEslintRule = ESLintUtils.RuleCreator(
-  ruleName => {
-    console.log(ruleName);
+  (ruleName) => {
     return ruleName
   },
 )
