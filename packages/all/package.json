@@ -1,6 +1,6 @@
 {
   "name": "@pity/eslint-config",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "author": "priority (https://github.com/priority3)",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@pity/eslint-config-react": "workspace:^0.0.1",
+    "@pity/eslint-config-react": "workspace:*",
     "@pity/eslint-config-vue": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
