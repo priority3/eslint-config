@@ -1,22 +1,22 @@
 {
   "name": "@pity/eslint-config-ts",
-  "version": "0.0.6",
+  "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "author": "priority (https://github.com/priority3)",
+  "license": "MIT",
+  "homepage": "https://github.com/priority3/eslint-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/priority3/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/priority3/eslint-config/issues"
   },
   "keywords": [
     "eslint-config",
     "typescript"
   ],
-  "author": "priority (https://github.com/priority3)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/priority3/eslint-config/issues"
-  },
-  "homepage": "https://github.com/priority3/eslint-config#readme",
+  "main": "index.js",
   "files": [
     "index.js"
   ],

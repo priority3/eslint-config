@@ -1,0 +1,28 @@
+{
+  "name": "@pity/eslint-config-react",
+  "version": "0.1.2",
+  "description": "",
+  "author": "priority",
+  "license": "MIT",
+  "homepage": "https://github.com/priority/eslint-config",
+  "keywords": [
+    "eslint",
+    "eslint-config-react"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@pity/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.31.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "react": "^18.2.0",
+    "typescript": "^4.7.4"
+  }
+}

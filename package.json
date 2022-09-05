@@ -1,6 +1,6 @@
 {
   "name": "@pity/eslint-config-monorepo",
-  "version": "0.0.6",
+  "version": "0.1.2",
   "packageManager": "pnpm@7.3.0",
   "description": "eslint config ",
   "author": "priority (https://github.com/priority3)",
@@ -26,6 +26,7 @@
     "@pity/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "eslint": "^8.20.0",
+    "eslint-plugin-pity": "workspace:*",
     "typescript": "^4.7.4"
   }
 }
