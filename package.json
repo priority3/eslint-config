@@ -1,6 +1,6 @@
 {
   "name": "@pity/eslint-config-monorepo",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "packageManager": "pnpm@7.3.0",
   "description": "eslint config ",
   "author": "priority (https://github.com/priority3)",
