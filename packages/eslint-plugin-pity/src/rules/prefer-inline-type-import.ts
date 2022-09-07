@@ -24,6 +24,7 @@ export default createEslintRule<Options, MessageIds>({
   defaultOptions: [],
   create: (context) => {
     const sourceCode = context.getSourceCode()
+
     return {
       ImportDeclaration: (node) => {
         // ignore bare type imports
