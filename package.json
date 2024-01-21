@@ -20,7 +20,7 @@
   "scripts": {
     "lint": "eslint .",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
+    "release": "bumpp package.json packages/*/package.json --ignore-scripts package/fixture --commit --push --tag && pnpm -r publish --filter=!package/fixture --access public"
   },
   "devDependencies": {
     "@pity/eslint-config": "workspace:*",
